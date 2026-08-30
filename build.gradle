@@ -29,7 +29,7 @@ publishing { //3
     publications {
         mavenJava(MavenPublication) {
             from components.java
-            artifactId = 'greckrypto'
+            artifactId = 'greckrypto' // ./gradlew publish
         }
     }
     repositories {
